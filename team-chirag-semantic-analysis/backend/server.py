@@ -5,6 +5,7 @@ from queryHandling.dynamic.groq_dsa_yt import generate_response, YouTubeResource
 from queryHandling.integrated_chat_handler import IntegratedChatHandler
 from typing import List, Dict, Optional
 
+
 app = FastAPI()
 
 # Initialize the integrated chat handler
